@@ -1,8 +1,9 @@
 npm init -y
 npm install express
-npm install nodemon -D  
+npm install nodemon -D
+npx nodemon server.js
 
-Навстройка:
+Настройка:
 
 const http = require('http')
 const express = require('express')
